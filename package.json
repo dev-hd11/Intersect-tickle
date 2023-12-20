@@ -2,9 +2,12 @@
   "name": "intersect-tickle",
   "version": "0.1.0",
   "description": "A good-looking tic-tac-toe game built with React.",
-  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dev-hd11/Intersect-tickle.git"
+  },
   "scripts": {
-    "start" : "",
+    "start": "",
     "test": "echo Please run start!"
   },
   "author": "Himank Deka",
