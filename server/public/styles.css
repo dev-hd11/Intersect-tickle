@@ -1,0 +1,51 @@
+.main {
+  height: 100vh;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+}
+.container2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 10vh;
+}
+.heading {
+    font-family: monospace;
+    font-size: 50px;
+}
+
+.sub {
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Courier New', Courier, monospace;
+  color: rgb(255, 231, 17);
+}
+
+body {
+  background-image: linear-gradient(to bottom, rgb(195, 0, 255), rgb(0,0,0));
+}
+
+.logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 19px;
+  padding: 20px;
+}
+
+.logo img {
+  width: 50px;
+  margin: 10px;
+  height: 56px;
+}
+
+.hr {
+  border: 4px solid greenyellow;
+}
