@@ -1,0 +1,12 @@
+{
+  "name": "intersect-tickle",
+  "version": "0.1.0",
+  "description": "A good-looking tic-tac-toe game built with React.",
+  "main": "index.js",
+  "scripts": {
+    "start" : "",
+    "test": "echo Please run start!"
+  },
+  "author": "Himank Deka",
+  "license": "AGPL-3.0"
+}
