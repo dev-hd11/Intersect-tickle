@@ -5,20 +5,41 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
-    <title>Intersect Tickle</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <title>Tickle</title>
+    <script src="./script.js"></script>
   </head>
-  <body>
-    <div class="main">
-      <div class="logo">
-        <img src="logo.ico">
-        <p>Intersect Media</p>
-      </div><hr>
-      <div class="container">
-        <div class="container2">
-            <img src="favicon.ico">
-            <h1 class="heading">Intersect Tickle</h1>
+  <body id="content-body">
+    <div id="loading">
+      <div class="container light">
+        <div class="container2 exp">
+          <img src="logo.ico">
+          <h1 class="heading">Intersect Gaming</h1>
         </div>
-        <p class="sub">The Tic-Tac-Toe Game</p>
+        <p class="notice">&copy;2023, Himank Deka. All rights reserved.</p>
+        <div class="spinner">
+          <div></div>
+        </div>
+      </div>
+    </div>
+    <div id="displayScreen" class="screen">
+      <div class="main">
+        <div class="logo">
+          <p onclick="alert('This project is a part of Intersect Gaming series by Himank Deka')">From Intersect Gaming</p>
+          <a href="https://www.github.com/dev-hd11/Intersect-tickle/" class="btn-styled exp">GitHub</a>
+          <a href="#" class="btn-styled adjust" id="gmpl">Gameplay <span class="fa fa-cog"></span></a>
+        </div><hr>
+        <div class="container">
+          <div class="container2">
+              <img src="favicon.ico">
+              <h1 class="heading">Tickle</h1>
+          </div>
+          <p class="sub">The Tic-Tac-Toe Game from Intersect Gaming.</p>
+          <button class="play-button" id="play-button">
+            <p id="msg">PLAY</p>
+            <div class="triangle" id="tri"></div>
+          </button>
+        </div>
       </div>
     </div>
   </body>
