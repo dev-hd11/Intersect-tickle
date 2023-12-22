@@ -89,24 +89,29 @@ body {
   padding: 10px;
 }
 
+.logo p span {
+  display: none;
+}
+
 .logo p {
   color: white;
   font-family: 'Courier New', Courier, monospace;
   font-size: 14px;
-  padding: 10px;
+  padding: 6px;
   background-color: rgba(0, 125, 0, 0.8);
   box-shadow: 0 0 10px rgb(0, 125, 0), 0 0 10px rgb(0, 125, 0);
   transition: all 1s;
-}
-
-.logo p:hover {
+  width: 230px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
   cursor: pointer;
-  box-shadow: 0 0 10px rgb(0, 125, 0), 0 0 10px rgb(0, 125, 0), 0 0 10px rgb(0, 125, 0), 0 0 10px rgb(0, 125, 0), 0 0 10px rgb(0, 125, 0), 0 0 10px rgb(0, 125, 0), 0 0 10px rgb(0, 125, 0);
 }
 
 .btn-styled {
   padding: 10px;
-  width: 50px;
+  width: fit-content;
   margin-top: 15px;
   margin-left: 30px;
   height: 18px;
@@ -120,11 +125,11 @@ body {
 }
 
 .btn-styled.exp {
-  margin-left: 1050px
+  margin-left: 1000px
 }
 
 .btn-styled:hover {
-  color: black;
+  color: white;
   background-color: rgba(255, 0, 0, 0.8);
   box-shadow: 0 0 10px red, 0 0 10px red, 0 0 10px red, 0 0 10px red, 0 0 10px red, 0 0 10px red, 0 0 10px red;
 }
@@ -140,6 +145,8 @@ body {
 .play-button {
   display: flex;
   flex-direction: row;
+  align-items: center;
+  justify-content: center;
   margin: 20px;
   font-family: monospace;
   font-size: 25px;
@@ -154,9 +161,9 @@ body {
   margin: 10px;
   width: 0;
   height: 0;
-  border-left: 15px solid transparent;
-  border-right: 15px solid transparent;
-  border-bottom: 26px solid white;
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent;
+  border-left: 26px solid white;
   transition: all 0.75s;
 }
 
@@ -166,6 +173,13 @@ body {
 }
 
 
-.btn-styled.adjust {
-  width: fit-content;
+
+
+@keyframes grow {
+  0% {
+    transform: rotateX(0deg);
+  }
+  100% {
+    transform: rotateX(360deg);
+  }
 }
