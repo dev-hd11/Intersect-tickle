@@ -6,7 +6,7 @@ I'm working towards building a strong AI and even add multiplayer and other feat
 Currently under development.
 
 # Installation
-Install the lastest release and run `npm start`.
+Install the lastest release and run `npm install` or `npm update` and then run `npm start`.
 
 # Notice
 Images by icon-icons.com
