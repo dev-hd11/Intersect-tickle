@@ -67,6 +67,9 @@ document.addEventListener('DOMContentLoaded', function() {
 
         play.addEventListener('click', function() {
             triangle.style.animation = 'grow 1.5s linear infinite';
+            setTimeout(function() {
+                window.location.href = 'http://localhost:3000/app';
+            }, 2000);
         });
 
         gmpl.addEventListener('click', function() {

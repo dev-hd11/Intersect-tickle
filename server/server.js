@@ -21,10 +21,31 @@ const app = express();
 const port = 3000;
 
 app.use(express.static(path.join(__dirname, 'public')));
+app.use(express.static(path.join(__dirname, 'aftermath', 'success')));
+app.use(express.static(path.join(__dirname, 'aftermath', 'fail')));
+app.use(express.static(path.join(__dirname, 'aftermath', 'draw')));
+app.use(express.static(path.join(__dirname, 'build')));
 
 app.get('/', (req, res) => {
   res.sendFile(path.join(__dirname, 'public', 'index.html'));
 });
+
+app.get('/success', (req, res) => {
+  res.sendFile(path.join(__dirname, 'aftermath', 'success', 'index.html'));
+});
+
+app.get('/fail', (req, res) => {
+  res.sendFile(path.join(__dirname, 'aftermath', 'fail', 'index.html'));
+});
+
+app.get('/draw', (req, res) => {
+  res.sendFile(path.join(__dirname, 'aftermath', 'draw', 'index.html'));
+});
+
+app.get('/app', (req, res) => {
+  res.sendFile(path.join(__dirname, 'build', 'index.html'));
+});
+
 
 app.listen(port, () => {
   console.log(`Server is running on http://localhost:${port}`);

@@ -1,0 +1,134 @@
+<!-- 
+    Tickle (Part of Intersect Gaming)
+    Copyright (C) 2023  Himank Deka
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU Affero General Public License as
+    published by the Free Software Foundation, either version 3 of the
+    License, or (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU Affero General Public License for more details.
+
+    You should have received a copy of the GNU Affero General Public License
+    along with this program.  If not, see <https://www.gnu.org/licenses/>. -->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>You Lost!</title>
+        <script>
+            const ele = document.getElementById('date');
+            const date = new Date();
+            ele.innerHTML = date.getFullYear();
+        </script>
+        <style>
+                            /* Tickle (Part of Intersect Gaming)
+                Copyright (C) 2023  Himank Deka
+
+                This program is free software: you can redistribute it and/or modify
+                it under the terms of the GNU Affero General Public License as
+                published by the Free Software Foundation, either version 3 of the
+                License, or (at your option) any later version.
+
+                This program is distributed in the hope that it will be useful,
+                but WITHOUT ANY WARRANTY; without even the implied warranty of
+                MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+                GNU Affero General Public License for more details.
+
+                You should have received a copy of the GNU Affero General Public License
+                along with this program.  If not, see <https://www.gnu.org/licenses/>. */
+            .head {
+            margin: 12px;
+            padding: 20px;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            background-color: blue;
+            color: rgb(0, 119, 255);
+            text-align: center;
+            border: 4px solid blue;
+            box-shadow: 0 0 4px blue, 0 0 4px blue, 0 0 4px blue, 0 0 4px blue,  0 0 4px blue,  0 0 4px blue,  0 0 4px blue,  0 0 4px blue,  0 0 4px blue,  0 0 4px blue;
+            }
+
+            .head h1 {
+            text-transform: uppercase;
+            font-family: monospace;
+            position: fixed;
+            font-size: 50px;
+            text-shadow: 0 0 6px white, 0 0 6px white, 0 0 6px white, 0 0 6px white, 0 0 6px white, 0 0 6px white, 0 0 6px white;
+            }
+
+            .copy {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            height: 20px;
+            position: absolute;
+            width: 100%;
+            padding: 5px;
+            bottom: 0;
+            font-family: 'Courier New', Courier, monospace;
+            background-color: aliceblue;
+            text-transform: uppercase;
+            text-align: center;
+            }
+
+            .btn {
+            border-radius: 30px;
+            cursor: pointer;
+            padding: 15px;
+            border: none;
+            color: white;
+            background-color: rgb(0, 255, 195);
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            text-decoration: none;
+            transition: all 0.5s;
+            margin: 12px;
+            }
+
+            .btn:hover {
+            border: 4px solid green;
+            box-shadow: 0 0 6px green, 0 0 6px green, 0 0 6px green, 0 0 6px green, 0 0 6px green, 0 0 6px green, 0 0 6px green, 0 0 6px green, 0 0 6px green, 0 0 6px green, 0 0 6px green, 0 0 6px green;
+            }
+
+            body {
+            background-image: radial-gradient(circle, green 15%, black 80%);
+            }
+
+            .winpage {
+            background-color: #111;
+            color: #fff;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            box-shadow: 0 0 5px white, 0 0 5px white, 0 0 5px white, 0 0 5px white, 0 0 5px white, 0 0 5px white, 0 0 5px white, 0 0 5px white;
+            border: 4px solid white;
+            border-radius: 20px;
+            font-family: 'Times New Roman', Times, serif;
+            }
+
+            .winpage #heading {
+            font-size: 100px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="head">
+            <h1>Tickle</h1>
+        </div>
+        <div class="winpage">
+            <h1 class="heading" style="color: red;">You Lose! Better Luck Next Time!!😭</h1>
+            <p>"Failure is a stepping stone towards growth and resilience."</p>
+            <a class="btn" href="http://localhost:3000/app">Play Again</a>
+        </div>
+        <div class="copy">
+            <p>Copyright &copy; 2023-<abbr id = 'date'></abbr> Himank Deka. All rights reserved</p>
+        </div>
+    </body>
+</html>
