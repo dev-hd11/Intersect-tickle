@@ -16,7 +16,9 @@ Currently under development.
 Install the lastest release and run `npm install` or `npm update` and then run `npm start`.
 
 # Notice
-Images by icon-icons.com
+Images by [icon-icons.com](https://www.icon-icons.com)<br>
+Song: SICKO MODE [By Travis Scott feat. Drake]
+
 
 Tickle (Part of Intersect Gaming)
 Copyright (C) 2023-present  Himank Deka
