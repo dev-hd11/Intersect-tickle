@@ -38,7 +38,7 @@ function Heading() {
 
   return (
     <div className='head'>
-      <button id='home' onClick={window.location.href = 'http://localhost:3000/'}>Home <span className='fa fa-home'></span></button>
+      <button id='home' onClick={() => window.location.href = 'http://localhost:3000/'}>Home <span className='fa fa-home'></span></button>
       <h1>Tickle</h1>
       <button id='audio-btn' onClick={play_bg}>Audio <span className={spanClass}></span></button>
     </div>
@@ -77,9 +77,14 @@ function MainScreen() {
 
     if (winner) {
       if (board[key[0]] == 'X') {
-        window.location.href = 'http://localhost:3000/success/';
+        setTimeout(function() {
+            window.location.href = 'http://localhost:3000/success/';
+        }, 3000);
       } else {
-        window.location.href = 'http://localhost:3000/fail/';
+        setTimeout(function() {
+          window.location.href = 'http://localhost:3000/fail/';
+        }, 3000);
+        
       }
     } else {
       var anyNull = false;
@@ -91,7 +96,9 @@ function MainScreen() {
       }
 
       if (!anyNull) {
-        window.location.href = 'http://localhost:3000/draw/';
+        setTimeout(function() {
+          window.location.href = 'http://localhost:3000/draw/';
+        }, 3000);
       }
     }
   }

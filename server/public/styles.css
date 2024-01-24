@@ -24,7 +24,7 @@
 
 
 .spinner {
-  margin: 50px;
+  margin: 5vh;
   display: block;
   z-index: 1000;
   top: 50%;
@@ -35,7 +35,7 @@
 .notice {
   text-align: center;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  font-size: 12px;
+  font-size: 2vh;
   color: rgb(125, 125, 125)
 }
 
@@ -45,11 +45,11 @@
 }
 
 .spinner div {
-  border: 4px solid #111;
-  border-top: 4px solid rgb(255, 0, 0);
+  border: 1vh solid #111;
+  border-top: 1vh solid rgb(255, 0, 0);
   border-radius: 50%;
-  width: 40px;
-  height: 40px;
+  width: 5vh;
+  height: 5vh;
   animation: spin 1s linear infinite;
 }
 .main {
@@ -85,12 +85,12 @@
 
 .heading {
     font-family: monospace;
-    font-size: 50px;
+    font-size: 6.5vh;
 }
 
 .sub {
   text-align: center;
-  font-size: 30px;
+  font-size: 4vh;
   font-family: 'Courier New', Courier, monospace;
   color: rgb(255, 231, 17);
 }
@@ -99,25 +99,20 @@ body {
   background-image: radial-gradient(circle, rgb(195, 0, 255) 10%, rgb(0,0,0) 80%);
 }
 
-.logo {
-  display: flex;
-  flex-direction: row;
-  padding: 10px;
-}
-
-.logo p span {
+.logo-p span {
   display: none;
 }
 
-.logo p {
+.logo-p {
   color: white;
   font-family: 'Courier New', Courier, monospace;
-  font-size: 14px;
-  padding: 6px;
+  font-size: 2vh;
+  padding: 3vh;
   background-color: rgba(0, 125, 0, 0.8);
-  box-shadow: 0 0 10px rgb(0, 125, 0), 0 0 10px rgb(0, 125, 0);
+  box-shadow: 0 0 3vh rgb(0, 125, 0), 0 0 3vh rgb(0, 125, 0);
   transition: all 1s;
-  width: 230px;
+  width: 20vh;
+  height: 5vh;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -125,37 +120,42 @@ body {
   cursor: pointer;
 }
 
-.btn-styled {
-  padding: 10px;
-  width: fit-content;
-  margin-top: 15px;
-  margin-left: 30px;
-  height: 18px;
-  border-radius: 10%;
-  border: 2px solid red;
-  color: red;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 14px;
-  text-decoration: none;
-  transition: all 0.75s;
+.navi {
+  display : flex;
+  align-items: center;
 }
 
-.btn-styled.exp {
-  margin-left: 1000px
+.btn-styled {
+  padding: 2vh;
+  width: fit-content;
+  margin-top: 2vh;
+  margin-left: 4vh;
+  height: 3vh;
+  border-radius: 10%;
+  border: 0.5vh solid red;
+  color: red;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 2vh;
+  text-decoration: none;
+  transition: all 0.75s;
 }
 
 .btn-styled:hover {
   color: white;
   background-color: rgba(255, 0, 0, 0.8);
-  box-shadow: 0 0 10px red, 0 0 10px red, 0 0 10px red, 0 0 10px red, 0 0 10px red, 0 0 10px red, 0 0 10px red;
+  box-shadow: 0 0 3vh red, 0 0 3vh red, 0 0 3vh red, 0 0 3vh red, 0 0 3vh red, 0 0 3vh red, 0 0 3vh red;
 }
 
 .btn-styled:active {
-  border: 2px solid green;
+  border: 1vh solid green;
+}
+
+.btn-styled.exp {
+  margin-left: auto;
 }
 
 .hr {
-  border: 4px solid greenyellow;
+  border: 1.5vh solid greenyellow;
 }
 
 .play-button {
@@ -163,28 +163,28 @@ body {
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  margin: 20px;
+  margin: 7vh;
   font-family: monospace;
-  font-size: 25px;
-  border: 4px solid #444;
+  font-size: 3.5vh;
+  border: 0.5vh solid #444;
   color: white;
-  padding: 3px;
+  padding: 1vh;
   background-color: #111;
   transition: all 0.75s;
 }
 
 .play-button .triangle {
-  margin: 10px;
+  margin: 2vh;
   width: 0;
   height: 0;
-  border-top: 15px solid transparent;
-  border-bottom: 15px solid transparent;
-  border-left: 26px solid white;
+  border-top: 1.92vh solid transparent;
+  border-bottom: 1.92vh solid transparent;
+  border-left: 4vh solid white;
   transition: all 0.75s;
 }
 
 .play-button p {
-  margin: 10px;
+  margin: 2vh;
   transition: all 0.75s;
 }
 

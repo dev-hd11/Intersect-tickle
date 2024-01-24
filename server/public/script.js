@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const loadingScr = document.getElementById("loading");
 
     setTimeout(function(){
-        const shadow = '0 0 10px cyan, 0 0 10px cyan, 0 0 10px cyan, 0 0 10px cyan';
+        const shadow = '0 0 3vh cyan, 0 0 3vh cyan, 0 0 3vh cyan, 0 0 3vh cyan';
 
         loadingScr.classList.add("screen");
         screen.classList = "show";
@@ -79,7 +79,7 @@ document.addEventListener('DOMContentLoaded', function() {
         btn_series.addEventListener('mouseover', function() {
             span1.style.display = 'block';
             textOg.style.display = 'none';
-            btn_series.style.boxShadow = '0 0 10px rgb(0, 125, 0), 0 0 10px rgb(0, 125, 0), 0 0 10px rgb(0, 125, 0), 0 0 10px rgb(0, 125, 0), 0 0 10px rgb(0, 125, 0), 0 0 10px rgb(0, 125, 0), 0 0 10px rgb(0, 125, 0)';
+            btn_series.style.boxShadow = '0 0 3vh rgb(0, 125, 0), 0 0 3vh rgb(0, 125, 0), 0 0 3vh rgb(0, 125, 0), 0 0 3vh rgb(0, 125, 0), 0 0 3vh rgb(0, 125, 0), 0 0 3vh rgb(0, 125, 0), 0 0 3vh rgb(0, 125, 0)';
         });
 
         btn_series.addEventListener('mouseout', function() {
