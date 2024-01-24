@@ -2,6 +2,8 @@
 A good-looking tic-tac-toe game built with React. It's the classic tic-tac-toe game that we play...but it has a slight twist....It is neon themed and vs AI.
 I'm working towards building a strong AI and even add multiplayer and other features.
 
+[![Watch the video](https://i.stack.imgur.com/Vp2cE.png)](./docs/Intersect-Vid.mp4)
+
 # Dependencies (Software) :
 **Node.js : 20.7.0 [Recommended]**
 
