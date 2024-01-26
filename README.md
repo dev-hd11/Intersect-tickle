@@ -1,4 +1,4 @@
-![Logo](docs/tickle-high-resolution-logo-transparent.png)
+![Logo](docs/logo-plus.png)
 <hr>
 
 **A good-looking tic-tac-toe game built with React. It's the classic tic-tac-toe game that we play...but it has a slight twist....It is neon themed and vs AI.
