@@ -1,9 +1,12 @@
-# Intersect-tickle
-A good-looking tic-tac-toe game built with React. It's the classic tic-tac-toe game that we play...but it has a slight twist....It is neon themed and vs AI.
-I'm working towards building a strong AI and even add multiplayer and other features.
+![Logo](docs/tickle-high-resolution-logo-transparent.png)
+<hr>
+
+**A good-looking tic-tac-toe game built with React. It's the classic tic-tac-toe game that we play...but it has a slight twist....It is neon themed and vs AI.
+I'm working towards building a strong AI and even add multiplayer and other features.**
 
 # Documentation
-You can watch the video provided in the `docs` folder.
+
+![You can watch the documentation video here](https://techworld856.godaddysites.com/downloads)
 
 # Dependencies (Software) :
 **Node.js : 20.7.0 [Recommended]**
