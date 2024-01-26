@@ -5,8 +5,7 @@
 I'm working towards building a strong AI and even add multiplayer and other features.**
 
 # Documentation
-
-![You can watch the documentation video here](https://techworld856.godaddysites.com/downloads)
+[You can watch the documentation video here](https://techworld856.godaddysites.com/downloads)
 
 # Dependencies (Software) :
 **Node.js : 20.7.0 [Recommended]**
