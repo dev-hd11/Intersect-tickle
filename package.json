@@ -18,6 +18,6 @@
   },
   "homepage": "https://github.com/dev-hd11/Intersect-tickle#readme",
   "dependencies": {
-    "express": "^4.18.2"
+    "express": "^4.19.2"
   }
 }
